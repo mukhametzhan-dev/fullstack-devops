@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  PROJECT_NAME: "DevOps Final Project 2025"
+  DOMAIN: "localhost"
+  BACKEND_CORS_ORIGINS: '["http://localhost","http://localhost:3000"]'
+  POSTGRES_SERVER: postgres
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: postgres
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: changethis
+  SECRET_KEY: super-secret-key-change-in-prod-2025
+  FIRST_SUPERUSER: admin@devops2025.kz
+  FIRST_SUPERUSER_PASSWORD: changethis
